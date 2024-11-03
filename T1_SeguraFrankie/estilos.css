@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arimo;
+}
+
+.ancho{
+    margin: auto;
+    max-width: 1200px;
+}
+
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+.menu a{
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: white;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.menu i{
+    display: none;
+}
+
+.cabecera figure{
+    max-width: 250px;
+}
+
+.cabecera figure img{
+    width: 100%;
+    display: inline-block;
+}
+
+.fondo{
+    height: 500px;
+    background-image: url(imagenes/foto_slide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.titulo_slide{
+    position: absolute;
+    max-width: 600px;
+    top: 150px;
+    left: 150px;
+}
+
+.titulo_slide h3{
+    font-family: Arimo;
+    color: white;
+    font-size: 42px;
+    font-weight: lighter;
+}
+
+
+.titulo_servicio{
+    text-align: center;
+}
+.titulo_servicio h1{
+    font-weight: 400    ;
+    color: #333;
+}
+
+.titulo_servicio p{
+    font-weight: 500;
+    color: #6cb500;
+}
+
+.cont_servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.servicios{
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 350px;
+    background-color: #f3f3f3;
+}
+.servicios h3{
+    font-weight: 300;
+    color: #6cb500;
+}
+
+.servicios p{
+    font-size: 14px;
+}
+
+.servicios figure img{
+    max-width: 80px;
+}
+
+.pie{
+    display: flex;
+    justify-content: center;
+    background-color: #6cb500;
+    padding: 30px;
+}
+
+.pie figure{
+    max-width: 200px;
+}
+
+.pie figure img{
+    width: 100%;
+    display: inline-block;
+}
+
+

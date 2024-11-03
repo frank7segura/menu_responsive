@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/b971a45ca4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="movil.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class="cabecera ancho">
+            <div class="logo">
+                <figure>
+                    <img src="imagenes/logo_arriba.png" alt="Texto descriptivo">
+                </figure>
+                <i class="fa-solid fa-bars" id="iconomenu"></i>
+            </div>
+            <nav id="cajamenu"  class="menu">
+                <!-- <div  class="menu"> -->
+                    <a href="">Inicio</a>
+                    <a href="">Servicios</a>
+                    <a href="">Nuestros productos</a>
+                    <a href="">Contactanos</a>
+                <!-- </div> -->
+            </nav>
+            
+
+        </section>
+    </header>
+    
+
+    <section class="fondo ancho">
+        <div class="titulo_slide">
+            <h3>Cultivamos verduras orgánicas y las traemos a tu casa</h3>
+        </div>
+    </section><br><br>
+    <section class="titulo_servicio ancho">
+        <h1>
+            Nuestros servicios
+        </h1>
+        <p>Lo que ofrecemos</p><br><br>
+    </section>
+    <section class="cont_servicios ancho">
+        <div class="servicios">
+            <figure>
+                <img src="imagenes/icono1.png" alt="Texto descriptivo">
+            </figure><br>
+            <h3>Ganado Vacuno</h3><br>
+            <p>Carne de res producida sin ingeniería genética, uso de radiación ionizante o lodos de depuradora</p><br>
+        </div>
+        <div class="servicios">
+            <figure>
+                <img src="imagenes/icono2.png" alt="Texto descriptivo">
+            </figure><br>
+            <h3>Productos Lácteos</h3><br>
+            <p>Carne de res producida sin ingeniería genética, uso de radiación ionizante o lodos de depuradora</p><br>
+        </div>
+        <div class="servicios">
+            <figure>
+                <img src="imagenes/icono3.png" alt="Texto descriptivo">
+            </figure><br>
+            <h3>Fruta de la Huerta</h3><br>
+            <p>Carne de res producida sin ingeniería genética, uso de radiación ionizante o lodos de depuradora</p><br>
+        </div>
+    </section><br><br><br>
+
+    <footer class="pie ancho">
+        <figure>
+            <img src="imagenes/logo_abajo.png" alt="Texto descriptivo">
+        </figure>
+    </footer>
+</body>
+
+<script>
+    $("#iconomenu").click(function ( ){
+        $("#cajamenu").slideToggle( );
+    });
+ </script>
+</html>
